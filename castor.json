@@ -1,11 +1,11 @@
 {
   "ArchiveName": "zzzz-SuperName",
-  "RepoName": "GitHubAccount/Reponame",
-  "Author": "",
+  "RepoName": "ZtModArchive/SuperName",
+  "Author": "Apodemus",
   "Version": "v1.0",
   "Type": "mod",
   "License": "",
-  "Description": "This is a Zoo Tycoon 2 mod",
+  "Description": "This is a Zoo Tycoon 2 mod which changes the names of newborn super animals to contain the word \"Super\"",
   "Z2f": true,
   "ZT2loc": "C:\\Program Files (x86)\\Microsoft Games\\Zoo Tycoon 2",
   "IncludeFolders": [
@@ -34,6 +34,6 @@
   ],
   "Dependencies": [],
   "DevDependencies": [
-    "ZtModArchive/ArluqTools/v2.6"
+    "ZtModArchive/ArluqTools/v2.7"
   ]
 }
