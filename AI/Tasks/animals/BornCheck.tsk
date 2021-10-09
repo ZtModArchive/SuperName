@@ -1,0 +1,19 @@
+<BFAITaskTemplateList>
+    <BFAITaskTemplate Name="SuperBirthName" TaskDelayMin="0" TaskDelayMax="0" UniqueID="SuperBirthNames:CheckName">
+        <BFAICreateData>
+            <Subjects>
+                <animal />
+                <Qualifiers_AND inWater_OR_onLand="true" isSwimming="false" lifespan="LE 0.1" b_Adult="false" />
+            </Subjects>z
+            <Targets>
+                <self />
+            </Targets>
+            <Objects />
+        </BFAICreateData>
+        <BFAIEvalData fixedScore="2000" />
+        <BFBehExecTask>
+            <BFBehScript context="behavior" file="scripts/SuperBirthNames/SuperBirthNames.lua" function="born" />
+        </BFBehExecTask>
+        <BFAICompletionData />
+    </BFAITaskTemplate>
+</BFAITaskTemplateList>
